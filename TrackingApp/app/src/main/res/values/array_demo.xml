@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrCategory">
+        <item>All</item>
+        <item>Asian</item>
+        <item>Italian</item>
+        <item>African</item>
+        <item>Argentinian</item>
+        <item>Thai</item>
+        <item>Dessert</item>
+        <item>Vietnamese</item>
+        <item>Western</item>
+    </string-array>
+</resources>

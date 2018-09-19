@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_x="63dp"
+                    android:layout_y="25dp"
+                    android:text="Category"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="35dp"
+                    tools:layout_editor_absoluteY="21dp" />
+                <Spinner
+                    android:id="@+id/spCategory"
+                    android:layout_width="222dp"
+                    android:layout_height="40dp"
+                    android:layout_x="151dp"
+                    android:layout_y="15dp" />
+
+        </AbsoluteLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/revTrackableList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
